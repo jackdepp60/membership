@@ -1,4 +1,6 @@
 body{
+    -webkit-background-image: url("/images/bg.jpg") !important;
+         -webkitbackground-repeat: no-repeat;
     background-image: url("/images/bg.jpg") !important;
         background-repeat: no-repeat;
 }
@@ -85,7 +87,9 @@ h3 {
 
     body {
         margin: 0 auto;
-        background-image: url("/images/bg.jpg") !important;
+          -webkit-background-image: url("/images/bg.jpg") !important;
+         -webkitbackground-repeat: no-repeat;
+    background-image: url("/images/bg.jpg") !important;
         background-repeat: no-repeat;
         
         
@@ -114,7 +118,9 @@ h3 {
 
     body {
         margin: 0 auto;
-        background-image: url("/images/bg.jpg") !important;
+          -webkit-background-image: url("/images/bg.jpg") !important;
+         -webkitbackground-repeat: no-repeat;
+    background-image: url("/images/bg.jpg") !important;
         background-repeat: no-repeat;
         
     }
