@@ -1,0 +1,138 @@
+body{
+    background-image: url("/images/bg.jpg") !important;
+        background-repeat: no-repeat;
+}
+
+
+.log-in {
+    margin: 2rem auto;
+    background: rgba(255, 255, 255, 0.82) !important;
+    width: 95%;
+    border-radius: 12px !important;
+    border: rgba(128, 128, 128, 0.082) solid 3px !important;
+    box-shadow: rgba(0, 0, 0, 0.8) 0 10px 25px -5px;
+}
+
+h3 {
+    margin: 2.2rem 0 !important;
+    text-align: center;
+    font-family: "Montserrat";
+
+}
+
+.login-form {
+    margin-top: 1rem;
+}
+
+.card-body {
+    position: relative;
+    height: 470px;
+}
+
+.log-in-img {
+    object-fit: cover;
+}
+
+.log-in-btn {
+    width: 90%;
+    position: absolute;
+    right: 50%;
+    top: 58%;
+    transform: translateX(50%);
+    border-radius: 12px !important;
+    box-shadow: rgba(0, 0, 0, 0.8) 1px 10px 25px -10px;
+}
+
+.form-label {
+    color: rgb(13, 11, 11, 0.7);
+}
+
+.forgot-pw {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.new-acct {
+    position: absolute;
+    margin-top: 12rem;
+    right: 50%;
+    transform: translateX(50%);
+    font-size: 0.9rem;
+
+}
+
+.sign-up{
+    position: absolute;
+    margin-top: 13.5rem;
+    right: 50%;
+    transform: translateX(50%);
+    font-size: 0.9rem; 
+}
+
+.sign-up a{
+    text-decoration: none;
+}
+
+
+
+/* MEDIA QUERY */
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+   
+
+    body {
+        margin: 0 auto;
+        background-image: url("/images/bg.jpg") !important;
+        background-repeat: no-repeat;
+        
+        
+    }
+
+    .log-in {
+        margin: 5rem auto;
+        width: 50%;
+        background: rgba(255, 255, 255, 0.82) !important;
+    }
+    
+    .login-form {
+        margin: 0 2rem;
+    }
+    .log-in-img {
+        object-fit: cover;
+    }
+
+    .log-in-btn {
+        width: 80%;
+    }
+  }
+
+@media only screen and (min-width: 1210px) {
+   
+
+    body {
+        margin: 0 auto;
+        background-image: url("/images/bg.jpg") !important;
+        background-repeat: no-repeat;
+        
+    }
+
+    .log-in {
+        margin: 5rem auto;
+        width: 30%;
+        background: rgba(255, 255, 255, 0.82) !important;
+    }
+    
+    .login-form {
+        margin: 0 auto;
+    }
+    .log-in-img {
+        object-fit: cover;
+    }
+
+    .log-in-btn {
+        width: 80%;
+    }
+  }
