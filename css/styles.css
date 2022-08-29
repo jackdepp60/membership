@@ -1,5 +1,5 @@
 body{
-    background-image: url("images/bg.jpg") !important;
+    background-image: url("/images/bg.jpg") !important;
         background-repeat: no-repeat;
 }
 
@@ -85,7 +85,7 @@ h3 {
 
     body {
         margin: 0 auto;
-        background-image: url("images/bg.jpg") !important;
+        background-image: url("/images/bg.jpg") !important;
         background-repeat: no-repeat;
         
         
@@ -114,7 +114,7 @@ h3 {
 
     body {
         margin: 0 auto;
-        background-image: url("images/bg.jpg") !important;
+        background-image: url("/images/bg.jpg") !important;
         background-repeat: no-repeat;
         
     }
