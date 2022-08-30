@@ -20,7 +20,7 @@ h3 {
 
 }
 
-p {
+.msg {
     text-align: center;
     color: red;
     font-family: cursive;
