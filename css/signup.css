@@ -1,5 +1,5 @@
 body{
-    background-image: url("/images/bg.jpg") !important;
+    background-image: url("../images/bg.jpg") !important;
     background-repeat: no-repeat;
     background-position:bottom center;
     background-size: auto;
@@ -111,7 +111,7 @@ input {
 
     body {
         margin: 0 auto;
-        background-image: url("/images/bg.jpg") !important;
+        background-image: url("../images/bg.jpg") !important;
         background-repeat: no-repeat;
         
         
@@ -140,7 +140,7 @@ input {
 
     body {
         margin: 0 auto;
-        background-image: url("/images/bg.jpg") !important;
+        background-image: url("../images/bg.jpg") !important;
         background-repeat: no-repeat;
         
         
@@ -169,7 +169,7 @@ input {
 
     body {
         margin: 0 auto;
-        background-image: url("/images/bg.jpg") !important;
+        background-image: url("../images/bg.jpg") !important;
         background-repeat: no-repeat;
         
         
@@ -206,7 +206,7 @@ input {
 
     body {
         margin: 0 auto;
-        background-image: url("/images/bg.jpg") !important;
+        background-image: url("../images/bg.jpg") !important;
         background-repeat: no-repeat;
         
         
@@ -243,7 +243,7 @@ input {
 
     body {
         margin: 0 auto;
-        background-image: url("/images/bg.jpg") !important;
+        background-image: url("../images/bg.jpg") !important;
         background-repeat: no-repeat;
         background-position:center center;
         background-size: auto;
@@ -283,7 +283,7 @@ input {
 
     body {
         margin: 0 auto;
-        background-image: url("/images/bg.jpg") !important;
+        background-image: url("../images/bg.jpg") !important;
         background-repeat: no-repeat;
         
     }
