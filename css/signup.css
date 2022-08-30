@@ -1,5 +1,5 @@
 body{
-    background-image: url("/images/bg.jpg") !important;
+    background-image: url("images/bg.jpg") !important;
     background-repeat: no-repeat;
     background-position:bottom center;
     background-size: auto;
@@ -111,7 +111,36 @@ input {
 
     body {
         margin: 0 auto;
-        background-image: url("/images/bg.jpg") !important;
+        background-image: url("images/bg.jpg") !important;
+        background-repeat: no-repeat;
+        
+        
+    }
+
+    .log-in {
+        margin: 2rem auto;
+        width: 85%;
+        background: rgba(255, 255, 255, 0.82) !important;
+    }
+    
+    .login-form {
+        margin: 0 auto;
+    }
+    .log-in-img {
+        object-fit: cover;
+    }
+
+    .signup-btn {
+        width: 90%;
+    }
+  }
+
+  @media only screen and (min-width: 640px) and (max-width: 768px){
+   
+
+    body {
+        margin: 0 auto;
+        background-image: url("images/bg.jpg") !important;
         background-repeat: no-repeat;
         
         
@@ -135,57 +164,36 @@ input {
     }
   }
 
-  @media only screen and (min-width: 640px) and (max-width: 768px){
-   
-
-    body {
-        margin: 0 auto;
-        background-image: url("/images/bg.jpg") !important;
-        background-repeat: no-repeat;
-        
-        
-    }
-
-    .log-in {
-        margin: 2rem auto;
-        width: 50%;
-        background: rgba(255, 255, 255, 0.82) !important;
-    }
-    
-    .login-form {
-        margin: 0 auto;
-    }
-    .log-in-img {
-        object-fit: cover;
-    }
-
-    .signup-btn {
-        width: 90%;
-    }
-  }
-
 @media only screen and (min-width: 769px) and (max-width: 970px){
    
 
     body {
         margin: 0 auto;
-        background-image: url("/images/bg.jpg") !important;
+        background-image: url("images/bg.jpg") !important;
         background-repeat: no-repeat;
         
         
     }
 
+    .new-acct, .sign-up a {
+        font-size: 0.8rem;
+    }
+
     .log-in {
         margin: 5rem auto;
-        width: 45%;
+        width: 50%;
         background: rgba(255, 255, 255, 0.82) !important;
     }
-    
+ 
     .login-form {
         margin: 0 auto;
     }
     .log-in-img {
         object-fit: cover;
+    }
+
+    .sign-up {
+        margin-top: 9rem;
     }
 
     .signup-btn {
@@ -198,10 +206,53 @@ input {
 
     body {
         margin: 0 auto;
-        background-image: url("/images/bg.jpg") !important;
+        background-image: url("images/bg.jpg") !important;
         background-repeat: no-repeat;
         
         
+    }
+
+    .new-acct, .sign-up a {
+        font-size: 0.7rem;
+    }
+
+    .log-in {
+        margin: 5rem auto;
+        width: 40%;
+        background: rgba(255, 255, 255, 0.82) !important;
+    }
+    
+    .login-form {
+        margin: 0 auto;
+    }
+    .log-in-img {
+        object-fit: cover;
+    }
+
+    .sign-up {
+        margin-top: 9rem;
+    }
+
+    .signup-btn {
+        width: 90%;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1768px){
+   
+
+    body {
+        margin: 0 auto;
+        background-image: url("images/bg.jpg") !important;
+        background-repeat: no-repeat;
+        background-position:center center;
+        background-size: auto;
+        
+        
+    }
+
+    .new-acct, .sign-up a {
+        font-size: 0.8rem;
     }
 
     .log-in {
@@ -217,35 +268,8 @@ input {
         object-fit: cover;
     }
 
-    .signup-btn {
-        width: 90%;
-    }
-  }
-
-  @media only screen and (min-width: 1200px) and (max-width: 1768px){
-   
-
-    body {
-        margin: 0 auto;
-        background-image: url("/images/bg.jpg") !important;
-        background-repeat: no-repeat;
-        background-position:center center;
-        background-size: auto;
-        
-        
-    }
-
-    .log-in {
-        margin: 5rem auto;
-        width: 30%;
-        background: rgba(255, 255, 255, 0.82) !important;
-    }
-    
-    .login-form {
-        margin: 0 auto;
-    }
-    .log-in-img {
-        object-fit: cover;
+    .sign-up {
+        margin-top: 9rem;
     }
 
     .signup-btn {
@@ -259,7 +283,7 @@ input {
 
     body {
         margin: 0 auto;
-        background-image: url("/images/bg.jpg") !important;
+        background-image: url("images/bg.jpg") !important;
         background-repeat: no-repeat;
         
     }
