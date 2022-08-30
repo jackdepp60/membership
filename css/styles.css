@@ -1,8 +1,8 @@
 body{
     -webkit-background-image: url("images/bg.jpg") !important;
-         -webkit-background-repeat: no-repeat;
-    background-image: url("/images/bg.jpg") !important;
-        background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
+    background-image: url("images/bg.jpg") !important;
+    background-repeat: no-repeat;
 }
 
 
@@ -87,9 +87,9 @@ h3 {
 
     body {
         margin: 0 auto;
-          -webkit-background-image: url("images/bg.jpg") !important;
-         -webkit-background-repeat: no-repeat;
-    background-image: url("images/bg.jpg") !important;
+        -webkit-background-image: url("images/bg.jpg") !important;
+        -webkit-background-repeat: no-repeat;
+        background-image: url("images/bg.jpg") !important;
         background-repeat: no-repeat;
         
         
@@ -118,9 +118,9 @@ h3 {
 
     body {
         margin: 0 auto;
-          -webkit-background-image: url("images/bg.jpg") !important;
-         -webkit-background-repeat: no-repeat;
-    background-image: url("images/bg.jpg") !important;
+        -webkit-background-image: url("images/bg.jpg") !important;
+        -webkit-background-repeat: no-repeat;
+        background-image: url("images/bg.jpg") !important;
         background-repeat: no-repeat;
         
     }
