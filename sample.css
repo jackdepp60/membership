@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    width: 75%;
+    height: 500px;
+    position: relative;
+    margin: 100px auto;
+    overflow:hidden;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 1px solid rgb(234, 233, 233);
+}
+
+.tabs button {
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 0;
+    margin-right: 50px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#logoutBtn {
+    margin-left: 492px;
+    font-size: 0.9rem;
+    color:rgb(130, 125, 125)
+}
+
+#logoutBtn:hover {
+    color: red;
+
+}
+
+button:hover {
+    color: rgb(15, 124, 197);
+}
+
+button:focus {
+    color: rgb(15, 124, 197);
+}
+
+/* .content ul {
+    margin-top: 2rem;
+} */
+label {
+    font-weight: bold;
+    color: grey;
+}
+.content li {
+    list-style-type: none;
+    margin-bottom: 5px;
+    color: grey;
+}
+.content h2 {
+    color: rgb(15, 124, 197);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+    position: absolute;
+    left: 80rem;
+    overflow:hidden;
+    flex-basis: auto;
+}
+
+
+#content1 {
+    transform: translateX(0);
+    left: 0;
+}
