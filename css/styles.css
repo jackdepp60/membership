@@ -1,8 +1,6 @@
 body{
-    -webkit-background-image: url("https://images.pexels.com/photos/1227596/pexels-photo-1227596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") !important;
-    -webkit-background-repeat: no-repeat;
-    background-image: url("https://images.pexels.com/photos/1227596/pexels-photo-1227596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") !important;
-    background-repeat: no-repeat;
+    background-image: url("../images/bg.jpg") !important;
+     background-repeat: no-repeat;
 }
 
 
@@ -81,28 +79,25 @@ h3 {
 
 
 /* MEDIA QUERY */
-
-@media only screen and (min-width: 768px) and (max-width: 1200px){
+@media only screen and (min-width: 530px) and (max-width: 639px){
    
 
     body {
         margin: 0 auto;
-        -webkit-background-image: url(""https://images.pexels.com/photos/1227596/pexels-photo-1227596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") !important;
-        -webkit-background-repeat: no-repeat;
-        background-image: url(""https://images.pexels.com/photos/1227596/pexels-photo-1227596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") !important;
+        background-image: url("../images/bg.jpg") !important;
         background-repeat: no-repeat;
         
         
     }
 
     .log-in {
-        margin: 5rem auto;
-        width: 50%;
+        margin: 2rem auto;
+        width: 75%;
         background: rgba(255, 255, 255, 0.82) !important;
     }
     
     .login-form {
-        margin: 0 2rem;
+        margin: 0 auto;
     }
     .log-in-img {
         object-fit: cover;
@@ -113,15 +108,101 @@ h3 {
     }
   }
 
-@media only screen and (min-width: 1210px) {
+  @media only screen and (min-width: 640px) and (max-width: 768px){
    
 
     body {
         margin: 0 auto;
-        -webkit-background-image: url(""https://images.pexels.com/photos/1227596/pexels-photo-1227596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") !important;
-        -webkit-background-repeat: no-repeat;
-        background-image: url(""https://images.pexels.com/photos/1227596/pexels-photo-1227596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") !important;
+        background-image: url("../images/bg.jpg") !important;
         background-repeat: no-repeat;
+        
+        
+    }
+
+    .log-in {
+        margin: 2rem auto;
+        width: 50%;
+        background: rgba(255, 255, 255, 0.82) !important;
+    }
+    
+    .login-form {
+        margin: 0 auto;
+    }
+    .log-in-img {
+        object-fit: cover;
+    }
+
+    .log-in-btn {
+        width: 70%;
+    }
+  }
+
+@media only screen and (min-width: 769px) and (max-width: 970px){
+   
+
+    body {
+        margin: 0 auto;
+        background-image: url("../images/bg.jpg") !important;
+        background-repeat: no-repeat;
+        
+        
+    }
+
+    .log-in {
+        margin: 5rem auto;
+        width: 45%;
+        background: rgba(255, 255, 255, 0.82) !important;
+    }
+    
+    .login-form {
+        margin: 0 auto;
+    }
+    .log-in-img {
+        object-fit: cover;
+    }
+
+    .log-in-btn {
+        width: 80%;
+    }
+  }
+
+  @media only screen and (min-width: 970px) and (max-width: 1200px){
+   
+
+    body {
+        margin: 0 auto;
+        background-image: url("../images/bg.jpg") !important;
+        background-repeat: no-repeat;
+        
+        
+    }
+
+    .log-in {
+        margin: 5rem auto;
+        width: 35%;
+        background: rgba(255, 255, 255, 0.82) !important;
+    }
+    
+    .login-form {
+        margin: 0 auto;
+    }
+    .log-in-img {
+        object-fit: cover;
+    }
+
+    .log-in-btn {
+        width: 80%;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1768px){
+   
+
+    body {
+        margin: 0 auto;
+        background-image: url("../images/bg.jpg") !important;
+        background-repeat: no-repeat;
+        
         
     }
 
@@ -142,3 +223,31 @@ h3 {
         width: 80%;
     }
   }
+
+/* @media only screen and (min-width: 1209px) {
+   
+
+    body {
+        margin: 0 auto;
+        background-image: url("../images/bg.jpg") !important;
+        background-repeat: no-repeat;
+        
+    }
+
+    .log-in {
+        margin: 5rem auto;
+        width: 60%;
+        background: rgba(255, 255, 255, 0.82) !important;
+    }
+    
+    .login-form {
+        margin: 0 auto;
+    }
+    .log-in-img {
+        object-fit: cover;
+    }
+
+    .log-in-btn {
+        width: 80%;
+    }
+  } */
