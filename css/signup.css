@@ -1,5 +1,5 @@
 body{
-    background-image: url("../images/bg.jpg") !important;
+    background-image: url("/images/bg.jpg") !important;
     background-repeat: no-repeat;
     background-position:bottom center;
     background-size: auto;
@@ -111,7 +111,7 @@ input {
 
     body {
         margin: 0 auto;
-        background-image: url("../images/bg.jpg") !important;
+        background-image: url("/images/bg.jpg") !important;
         background-repeat: no-repeat;
         
         
@@ -140,7 +140,7 @@ input {
 
     body {
         margin: 0 auto;
-        background-image: url("../images/bg.jpg") !important;
+        background-image: url("/images/bg.jpg") !important;
         background-repeat: no-repeat;
         
         
@@ -169,7 +169,7 @@ input {
 
     body {
         margin: 0 auto;
-        background-image: url("../images/bg.jpg") !important;
+        background-image: url("/images/bg.jpg") !important;
         background-repeat: no-repeat;
         
         
@@ -181,7 +181,7 @@ input {
 
     .log-in {
         margin: 5rem auto;
-        width: 58%;
+        width: 50%;
         background: rgba(255, 255, 255, 0.82) !important;
     }
  
@@ -193,7 +193,7 @@ input {
     }
 
     .sign-up {
-        margin-top: 9rem;
+        margin-top: 8.9rem;
     }
 
     .signup-btn {
@@ -206,7 +206,7 @@ input {
 
     body {
         margin: 0 auto;
-        background-image: url("../images/bg.jpg") !important;
+        background-image: url("/images/bg.jpg") !important;
         background-repeat: no-repeat;
         
         
@@ -243,7 +243,7 @@ input {
 
     body {
         margin: 0 auto;
-        background-image: url("../images/bg.jpg") !important;
+        background-image: url("/images/bg.jpg") !important;
         background-repeat: no-repeat;
         background-position:center center;
         background-size: auto;
@@ -283,7 +283,7 @@ input {
 
     body {
         margin: 0 auto;
-        background-image: url("../images/bg.jpg") !important;
+        background-image: url("/images/bg.jpg") !important;
         background-repeat: no-repeat;
         
     }
