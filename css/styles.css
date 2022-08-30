@@ -1,7 +1,7 @@
 body{
-    -webkit-background-image: url("images/bg.jpg") !important;
+    -webkit-background-image: url("https://images.pexels.com/photos/1227596/pexels-photo-1227596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") !important;
     -webkit-background-repeat: no-repeat;
-    background-image: url("images/bg.jpg") !important;
+    background-image: url("https://images.pexels.com/photos/1227596/pexels-photo-1227596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") !important;
     background-repeat: no-repeat;
 }
 
