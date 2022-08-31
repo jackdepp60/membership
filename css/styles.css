@@ -1,6 +1,8 @@
+/* booom */
+
 body{
     background-image: url("../images/bg.jpg") !important;
-     background-repeat: no-repeat;
+        background-repeat: no-repeat;
 }
 
 
@@ -18,12 +20,6 @@ h3 {
     text-align: center;
     font-family: "Montserrat";
 
-}
-
-.msg {
-    text-align: center;
-    color: red;
-    font-family: cursive;
 }
 
 .login-form {
@@ -85,7 +81,7 @@ h3 {
 
 
 /* MEDIA QUERY */
-@media only screen and (min-width: 530px) and (max-width: 639px){
+@media  (min-width: 530px) and (max-width: 639px){
    
 
     body {
@@ -114,7 +110,7 @@ h3 {
     }
   }
 
-  @media only screen and (min-width: 640px) and (max-width: 768px){
+  @media (min-width: 640px) and (max-width: 768px){
    
 
     body {
@@ -143,7 +139,7 @@ h3 {
     }
   }
 
-@media only screen and (min-width: 769px) and (max-width: 970px){
+@media (min-width: 769px) and (max-width: 970px){
    
 
     body {
@@ -172,7 +168,7 @@ h3 {
     }
   }
 
-  @media only screen and (min-width: 970px) and (max-width: 1200px){
+  @media (min-width: 970px) and (max-width: 1200px){
    
 
     body {
@@ -201,7 +197,7 @@ h3 {
     }
   }
 
-  @media only screen and (min-width: 1200px) and (max-width: 1768px){
+  @media (min-width: 1200px) and (max-width: 1768px){
    
 
     body {
@@ -230,12 +226,12 @@ h3 {
     }
   }
 
-/* @media only screen and (min-width: 1209px) {
+/* @media   and (min-width: 1209px) {
    
 
     body {
         margin: 0 auto;
-        background-image: url("../images/bg.jpg") !important;
+        background-image: url("/images/bg.jpg") !important;
         background-repeat: no-repeat;
         
     }
